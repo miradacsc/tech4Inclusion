@@ -1,0 +1,85 @@
+ body{
+     margin: 0%;
+ }
+ header,nav,footer{
+    width:100%;
+  }
+
+  header,nav,aside,section,article,footer {
+      border-radius: 10px;
+  }
+
+nav {
+    background-color: rgb(6, 138, 6);
+    color: aliceblue;
+    width: 90%;
+    height: 50px;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+  section {
+      background-color: darkred;
+      width: 45%;
+      margin-top: 30px;
+      margin-left: 40px;
+      margin-right: 40px;
+      
+  }
+  aside,#aside2 {
+      width: 24%;
+  }
+
+  aside, section, .aside2{
+      display: inline-block;
+      height: 500px;
+  }
+
+header {
+    background-color: rgb(47, 255, 116);
+    height: 150px;
+}
+
+header > h2 {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+
+.aside1, .aside2 {
+    background-color: rgba(255, 166, 0, 0.788);
+}
+
+aside > h2 {
+    text-align: center;
+    color: aliceblue;
+}
+
+.aside2 {
+    margin-left: 0%;
+}
+
+
+section > h2 {
+    padding-left: 30px;
+    color: aliceblue;
+}
+article {
+    background-color: aliceblue;
+    width: 80%;
+    padding-left: 20px;
+    margin: 20px;
+}
+
+footer {
+    background-color: blueviolet;
+    color: aliceblue;
+    width: 100%;
+    height: 150px;
+}
+
+footer > h2 {
+    padding-left: 30px;
+    padding-top: 20px;
+}
