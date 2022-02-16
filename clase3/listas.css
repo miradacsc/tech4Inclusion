@@ -1,0 +1,14 @@
+li{
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  margin: 50px;
+  font-size: 30px;
+}
+
+.grupo1, .grupo2 {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
