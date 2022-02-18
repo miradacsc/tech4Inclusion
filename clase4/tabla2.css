@@ -1,0 +1,44 @@
+table{
+    width: 100%;
+    padding: 2em;
+}
+caption {
+    color: rgb(9, 109, 156);
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+tr{
+    text-align: left;
+    font-size: 1.2em;
+}
+
+th {
+    color: rgba(10, 139, 213, 0.551);
+}
+
+td {
+    color: lightslategray;
+    border: rgb(35, 37, 53)solid 1px;
+}
+
+td, th {
+        padding: 1em;
+}
+
+section {
+    background-color: rgb(35, 37, 53);
+}
+
+.sitiosA {
+    background-color: rgb(59, 62, 81);
+}
+
+.sitiosB {
+    background-color: rgb(43, 48, 73);
+}
+
+#sitio {
+    color: rgb(240, 8, 85);
+}
