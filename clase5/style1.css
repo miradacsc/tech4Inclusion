@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+}
+
+img {
+    width: 200px;
+    height: 50px;
+}
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: .2em;
+    padding-right: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    color: white;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-bottom: 1.5em;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    vertical-align: middle;
+    padding-inline-start: 1em;
+}
+
+.menu2{
+    text-decoration: none;
+    vertical-align: middle;
+    margin-inline-start: 12em;
+}
+
+li {
+    vertical-align: middle;
+}
+
+
+video {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 0;
+}
+
+
+h1{
+    position: absolute;
+    top: 87%;
+}
+
+h1, h2, h3 {
+    color: white;
+}
+
+h3{
+    position: absolute;
+    top: 82%;
+    color: rgb(219, 217, 217);
+}
+
+.icono-N {
+    width: 30PX;
+    height: 25PX;
+}
+
+button {
+    width: 200px;
+    height: 37px;
+}
+
+button > img {
+    width: 20px;
+    height: 20px;
+}
+
+.play {
+    position: absolute;
+    z-index: 2;
+    bottom: -1em;
+    text-align: center;
+} 
+
+.info{
+    background-color: gray;
+    border: 3px solid gray;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    left: 13em;
+    bottom: -1em;
+}
