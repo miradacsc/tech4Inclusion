@@ -5,14 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .formulario{
+            width: 50%;
+            margin: auto;
+            background-color: cadetblue;
+            height: 500px;
+            line-height: 3em;
+            text-align: center;
+        }
+
+        input {
+            border-radius: 10px;
+            widows: 30px;
+        }
+
+        h1{
+            padding-top: 1.5em;
+        }
+
+        button {
+            border-radius: 8px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <form action="">
+
+    <form  class="formulario" action="">
+        <h1>Complete con sus datos</h1>
         <label for="nombre">Nombre completo:</label>
-        <input type="text" id="nombre" value="Maria Escobar" required>
+        <input type="text" id="nombre" placeholder="Maria Escobar" required maxlength="30" pattern="[a-zA-Z0-9]+" required autofocus> <br>
         
-        <label for="edad">Edad:</label>
-        <input type="number"id="edad" value="38" required>
+        <label for="edad">Teléfono: </label>
+        <input type="number"id="edad" placeholder="54341668323" required> <br>
         
         <label for="pais">País:</label>
   
@@ -23,14 +50,14 @@
         <label for="">Colombia</label>
         <input type="checkbox" id="Colombia" value="Colombia">
         <label for="">Chile</label>
-        <input type="checkbox" id="Chile" value="Chile">
+        <input type="checkbox" id="Chile" value="Chile"> <br>
         
-        <label for="sexo">Sexo</label>
+        <label for="sexo">Sexo:</label>
   
         <label for="mujer">Mujer</label>
         <input type="radio" id="mujer" value="mujer">
         <label for="hombre">Hombre</label>
-        <input type="radio" id="hombre" value="hombre">
+        <input type="radio" id="hombre" value="hombre"><br>
 
         <button type="submit">Enviar</button>
     </form>
