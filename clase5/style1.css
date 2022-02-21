@@ -52,7 +52,7 @@ video {
 
 h1{
     position: absolute;
-    top: 46%;
+    top: 48%;
 }
 
 h1, h2, h3 {
@@ -61,7 +61,7 @@ h1, h2, h3 {
 
 h3{
     position: absolute;
-    top: 42%;
+    top: 44%;
     color: rgb(219, 217, 217);
 }
 
@@ -83,7 +83,7 @@ button > img {
 .play {
     position: absolute;
     z-index: 2;
-    bottom: 19em;
+    bottom: 16em;
     text-align: center;
 } 
 
@@ -94,5 +94,5 @@ button > img {
     position: absolute;
     z-index: 2;
     left: 13em;
-    bottom: 19em;
+    bottom: 16em;
 }
