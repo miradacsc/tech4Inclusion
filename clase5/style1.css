@@ -34,7 +34,7 @@ a {
 .menu2{
     text-decoration: none;
     vertical-align: middle;
-    margin-inline-start: 12em;
+    margin-inline-start: 22em;
 }
 
 li {
@@ -44,7 +44,7 @@ li {
 
 video {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     position: absolute;
     z-index: 0;
 }
@@ -52,7 +52,7 @@ video {
 
 h1{
     position: absolute;
-    top: 48%;
+    top: 58%;
 }
 
 h1, h2, h3 {
@@ -61,7 +61,7 @@ h1, h2, h3 {
 
 h3{
     position: absolute;
-    top: 44%;
+    top: 54%;
     color: rgb(219, 217, 217);
 }
 
@@ -83,7 +83,7 @@ button > img {
 .play {
     position: absolute;
     z-index: 2;
-    bottom: 16em;
+    bottom: 14em;
     text-align: center;
 } 
 
@@ -94,5 +94,5 @@ button > img {
     position: absolute;
     z-index: 2;
     left: 13em;
-    bottom: 16em;
+    bottom: 14em;
 }

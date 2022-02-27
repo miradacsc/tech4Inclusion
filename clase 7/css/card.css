@@ -1,0 +1,59 @@
+
+.contenedor_principal {
+    background-color: rgb(15, 6, 19);
+    margin: 2em auto;
+    width: 75%;
+    height: 400px;
+    padding: 3em;
+        }
+.texto_izquierdo {
+    position: relative;
+    width: 50%;
+    height: 400px;
+    background-color: rgb(27, 14, 63);
+    float:left;
+}
+
+h1, p{
+    color: white;
+    padding: 10px 38px;
+}
+
+h1{
+    font-size: 2.3em;
+}
+
+.destacar {
+    color: blueviolet;
+}
+h4 {
+    display: inline;
+    color: white;
+    padding: 1.5em;
+}
+
+p{
+    margin-top: -2em;
+    color: rgb(200, 197, 197);
+}
+
+span{
+    color: aliceblue;
+    
+}
+
+
+.imagen_card{
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+    margin: 0;
+    width: 50%;
+}
+
+img{
+    width: 100%;
+    height: auto;
+
+}
