@@ -1,5 +1,5 @@
 body {
-    background: rgba(0, 0, 0, 0.7) url(./netflix_catalogo.webp) no-repeat;
+    background: rgba(0, 0, 0, 0.7) url(../img/netflix_catalogo.webp) no-repeat;
     height: fit-content;
     background-size: cover;
     background-blend-mode: darken; 
@@ -101,5 +101,5 @@ form > button{
     border: rgb(231, 3, 3);;
     color: rgb(246, 248, 248);
     padding: 10px;
-
+    cursor: pointer;
 }
