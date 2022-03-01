@@ -1,0 +1,156 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(15, 6, 19);
+  color: white;
+  font-weight: 400;
+}
+
+main {
+  min-width: 600px;
+  display: flex;
+  margin: 1em;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 5em 5em 5em 3em;
+  width: 570px;
+  min-width: 300px;
+  background-color: rgb(27, 14, 63);;
+  border-radius: 10px 0 0 10px;
+}
+
+section h1 {
+  font-size: 2.20rem;
+  margin-bottom: 0.75em;
+  font-weight: 700;
+}
+
+section h1 span {
+  color: darkorchid;
+}
+
+section .content {
+  margin-right: 2em;
+}
+
+section .content-text {
+  color: white;
+  line-height: 1.5em;
+  margin-bottom: 5em;
+}
+
+section ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  letter-spacing: 1px;
+}
+
+section ul h2 {
+  color: rgb(245, 243, 243);
+  margin-bottom: 0.3em;
+}
+
+section ul p {
+  color: rgb(175, 172, 172);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+.card-img {
+  min-height: 10em;
+  width: 540px;
+  min-width: 200px;
+  background: url(../oficina.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 10px 10px 0;
+  overflow: hidden;
+}
+
+.filter-1 {
+  background: hsl(277deg, 100%, 50%, 0.42);
+  height: 100%;
+}
+
+.filter-2 {
+  background: hsl(293deg, 42%, 35%, 0.24);
+  height: 100%;
+  mix-blend-mode: color-burn;
+}
+
+/* responsives - media queries */
+
+@media only screen and (max-width: 1024px) {
+  :root {
+    font-size: 12px;
+  }
+  section {
+    padding: 3em 4.5em 3em 3em;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  body {
+    flex-direction: column;
+  }
+  main {
+    flex-direction: column-reverse;
+    margin: 10px;
+    min-width: 200px;
+    margin-top: 5em;
+  }
+  section {
+    padding: 0;
+    padding: 3em;
+    width: 300px;
+    border-radius: 0 0 10px 10px;
+  }
+  section h1,
+  section .content-text {
+    text-align: center;
+  }
+  section .content-text {
+    font-size: 1.1rem;
+    margin-bottom: 2em;
+    line-height: 1.75em;
+  }
+  section .content {
+    margin-right: 0;
+  }
+  section ul {
+    flex-direction: row;
+    align-items: left;
+  }
+  section ul li {
+    margin: .4em;
+  }
+  section ul h2 {
+    font-size: 1.8rem;
+    text-align: left;
+    margin-bottom: 0.25em;
+  }
+  section ul p {
+    font-size: 1rem;
+  }
+  .card-img {
+    height: 220px;
+    width: 300px;
+    border-radius: 10px 10px 0 0;
+    background: url(../oficina.jpeg) no-repeat;
+    background-size: cover;
+  }
+}
